@@ -7,6 +7,8 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { ProductsComponent } from './pages/products/products.component';
+import { ShoppingCartComponent } from './pages/shopping-cart/shopping-cart.component';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ProductsComponent } from './pages/products/products.component';
     LoginComponent,
     RegisterComponent,
     ProfileComponent,
-    ProductsComponent
+    ProductsComponent,
+    ShoppingCartComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
